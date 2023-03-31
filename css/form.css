@@ -1,0 +1,65 @@
+
+body {
+
+    font-size: 16px;
+    background: rgb(255, 128, 37);
+    color: chocolate;
+    font-family: "Arial", Segoe UI, Tahoma, sans-serifl, Helvetica Neue, Helvetica;
+    font-size: 14px;
+}
+#container{
+ width: 60%;
+ background: #000000;
+ margin: 20px auto;
+ overflow: auto;
+ padding: 25px;
+}
+
+header{
+    text-align: center;
+    border-bottom: #fff dashed 1px;
+}
+
+header h1{
+    margin: 0;
+    padding: 0;
+    color: orange;
+}
+header p{
+    padding: 0;
+    margin-top: 5px;
+    color: darkgoldenrod;
+}
+
+h3{
+    color: rgb(221, 162, 10);
+}
+
+section{
+    min-height: 410px;
+}
+
+input[type='submit']{
+    background: #f06226;
+    border: 0;
+    color: #000000;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+button{
+    background: #f06226;
+    border: 0;
+    color: #000000;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+#resultado h3{
+    background: #c6d;
+    padding: 10px;
+    margin: 10px 0;
+}
+#resultado span{
+    color: #000;
+    font-weight: bold;
+}
+

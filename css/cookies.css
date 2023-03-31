@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.cookies-box {
+    position: fixed;
+    bottom: 0;
+    background: #010c4c;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: -2px 0 14px 8px rgba(0, 0, 0, .8);
+    transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+
+.cookies-box .container-cookies {
+    padding: 20px 0;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.cookies-box .container-cookies .parrafo {}
+
+.cookies-box .container-cookies .parrafo p {
+    color: #fff;
+}
+
+.cookies-box .container-cookies .parrafo p a {
+    color: #cccccc;
+}
+
+.cookies-box .container-cookies .botones {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.cookies-box .container-cookies .botones button {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 5px 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: all 200ms ease-in;
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+}
+
+.cookies-box .container-cookies .botones button:hover {
+    color: orange;
+    border: 2px solid orange;
+}
+
+.cookies-box .container-cookies .botones button:last-child {
+    margin-top: 5px;
+}
